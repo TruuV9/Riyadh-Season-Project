@@ -1,0 +1,135 @@
+/* Import a font-style */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+/* Decreasing the border */
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: poppins;
+}
+
+/* NavBar including the Background */
+/* Background */
+.darker{
+    background: rgb(6,20,27);
+    background: linear-gradient(180deg, rgba(6, 20, 27, 0.479) 100%, rgba(37, 55, 69, 0.379) 100%);
+    text-align: center;
+    height: 107.6vh;
+}
+.Nav_Background{
+    position: relative;
+    bottom: 83px;
+    width: 100%;
+    z-index: -9;
+}
+/* NavBar */
+.NavBar{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    display: flex;
+    width: 97%;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 80px;
+    margin-left: 20px;
+    background-color: rgba(128, 128, 128, 0);
+}
+.logo_div{
+    width: fit-content;
+}
+
+/* Search Bar */
+.search_div, .NavContent{
+    width: fit-content;
+}
+.search_div{
+    display: flex;
+    position: relative;
+    top: 20px;
+    right: 40px;
+    width: 62%;
+}
+.searchbar{
+    width: 50%;
+    height: 50px;
+    padding: 20px;
+    border-radius: 200px;
+    background-color: #454c52;
+    opacity: 0.5;
+    font-size: 24px;
+    color: #CCD0CF;
+    border: none;
+}
+.searchbar:focus, .searchbar:hover{
+    width: 100%;
+    transition: .6s;
+}
+.NavContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.NavContent ul{
+    display: flex;
+    position: relative;
+    right: 60px;
+    bottom: 41.7px;   
+    justify-content: space-around;
+    gap: 15%;
+    font-size: 1.2rem;
+}
+.NavContent a{
+    color: #e5e7e9;
+}
+/* Headings */
+.header{
+    font-size: 6rem;
+    color: #e5e7e9;
+    position: absolute;
+    top: 40%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+}
+#header0{
+    position: absolute;
+    left: 22%;
+}
+#header1{
+    position: absolute;
+    top: 53%;
+    left: 25%;
+}
+#header2{
+    position: absolute;
+    top: 66%;
+    left: 13.9%;
+}
+/* Button */
+.btn_div{
+    width: fit-content;
+    position: absolute;
+    top: 690px;
+    left: 1550px;
+}
+.btn{
+    border-radius: 100px;
+    padding: 10px;
+    font-size: 1.2rem;
+    color: #e5e7e9;
+    background-color: #25374500;
+    border: 2px solid #ccd0cf;
+    width: 170%;
+    transition: width 0.6s;
+    background-color: #11212d00;
+}
+.btn:hover{
+    width: 240%;
+    cursor: pointer;
+    color: #11212D;
+    background-color: #e5e7e9;
+    transition: 0.6s;
+}
