@@ -1,0 +1,93 @@
+body{
+    background-color: #111111;
+    height: 300vh;
+}
+.two_sec{
+    position: relative;
+    height: 85vh;
+}
+.span_con{
+    display: inline-block;
+    width: fit-content;
+    font-size: 3rem;
+    color: #E5E5E5;
+    text-align: center;
+    position: absolute;
+    top: 10%;
+    left: 7%;
+}
+.spaner{
+    border-right: 5px solid #FCA311;
+    border-bottom: 5px solid #FCA311;
+    padding: 0px 60px 40px 0px;
+    position: relative;
+    left: 10px;
+}
+/* Header animation */
+
+#span1{
+    animation: slider 1.2s;
+}
+#span2{
+    animation: slider 1.3s;
+}
+/* Paragraph */
+.parDiv{
+    text-align: center;
+    width: fit-content;
+    font-size: 1.5rem;
+    color: #E5E5E5;
+    position: relative;
+    left: 10%;
+}
+/* Paragraph animation */
+#par1{
+    animation: slider 1.4s;
+}
+#par2{
+    animation: slider 1.5s;
+}
+#par3{
+    animation: slider 1.6s;
+}
+#par4{
+    animation: slider 1.7s;
+}
+#par5{
+    animation: slider 1.8s;
+}
+#par6{
+    animation: slider 1.9s;
+}
+
+@keyframes slider {
+    from {
+        transform: translateX(-120%);
+    }
+}
+/* Images hover */
+#img02{
+    position: relative;
+    bottom: 70px;
+    left: 930px;
+    animation: sliderimg 1.4s;
+}
+#img2{
+    position: relative;
+    left: 1000px;
+    top: 290px;
+    animation: sliderimg 1.2s;
+}
+@keyframes sliderimg {
+    from {
+        transform: translateX(220%);
+    }
+}
+.img01{
+    transition: transform 0.6s;
+    border-radius: 4%;
+}
+.img01:hover{
+    transform: scale(1.15);
+    transition: 0.6s;
+}

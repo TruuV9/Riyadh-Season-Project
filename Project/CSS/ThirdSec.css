@@ -1,0 +1,119 @@
+/* Third Section */
+.hr_con{
+    height: 20px;
+    display: flex;
+    justify-content: center;
+}
+.hr{
+    border-bottom: white 2px solid;
+    width: 85%;
+}
+/* Heading */
+.header_con{
+    width: fit-content;
+    margin-top: 50px;
+    margin-left: 100px;
+    padding: 50px;
+    font-size: 1.7rem;
+    color: #E5E5E5;
+}
+/* Cards */
+.cards_div{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.cards{
+    width: 400px;
+    border-radius: 25px;
+    transition: height 0.6s;
+    background-color: #464646;
+    position: relative;
+    padding: 5px;
+    border: 2px solid black;
+    transition: transform 0.6s;
+}
+.cards_background{
+    width: 100%;
+    border-radius: 25px;
+    height: 200px;
+    background-image: url("/IMAGES/roshn-front.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.opacity{
+    border-radius: 25px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 2;
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+.cards:hover .opacity{
+    cursor: pointer;
+    opacity: 0;
+    transition: 0.6s;
+}
+
+.opacity h1{
+    margin-left: 23.5%;
+    z-index: 4;
+    color: #E5E5E5;
+}
+/* Content */
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 240px;
+    opacity: 0;
+    margin: 20px;
+    color: #E5E5E5;
+    transition: transform 0.6s;
+}
+.cards:hover .content{
+    opacity: 1;
+    transition: 0.6s;
+    transform: scale(1.05);
+}
+.p{
+    font-size: larger;
+}
+/* Organizing the cards backgorund */
+#Card2{
+    background-image: url("/IMAGES/the-groves-new.jpg");
+}
+#Card3{
+    background-image: url("/IMAGES/kingdom-arena-new.jpg");
+}
+#Card4{
+    background-image: url("/IMAGES/ramla-terraza.jpg");
+}
+/* Button */
+.btn_div1{
+    text-align: end;
+}
+.btn_div1 button{
+    border-radius: 100px;
+    font-size: 1.01rem;
+    padding: 10px;
+    background-color: #e5e5e500;
+    width: 40%;
+    transition: width 0.6s;
+    color: #e5e7e9;
+    border: 2px solid #e5e7e9;
+}
+.btn_div1 button:hover{
+    width: 60%;
+    cursor: pointer;
+    background-color: #e5e7e9;
+    color: #14213D;
+    border: 2px solid #14213D;
+    transition: 0.6s;
+}

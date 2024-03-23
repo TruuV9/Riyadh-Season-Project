@@ -4,7 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home</title>
+    <!-- Css Links -->
     <link rel="stylesheet" href="/CSS/NavBar.css" />
+    <link rel="stylesheet" href="/CSS/SecondSec.css" />
+    <link rel="stylesheet" href="/CSS/ThirdSec.css" />
     <link
       href="https://fonts.googleapis.com/css?family=Poppins"
       rel="stylesheet"
@@ -12,33 +15,38 @@
   </head>
   <body>
     <!-- NavBar including the Background -->
-    <section class="darker">
+    <section id="Main" class="darker">
       <section class="Nav_con">
         <!-- Intro Video -->
         <video
-          autoplay loop
+          autoplay
+          loop
+          muted
           class="Nav_Background"
-          src="/VIDEOS/Introduction.mp4"
+          src="/VIDEOS/Intro2.mp4"
+          width="100%"
         ></video>
         <!-- Navbar -->
         <nav class="NavBar">
           <div class="logo_div">
-            <img
-              id="logo"
-              src="/IMAGES/logo (3).png"
-              alt="Logo"
-              width="120px"
-            />
+            <a href="/HTML/Home.html">
+              <img
+                id="logo"
+                src="/IMAGES/logo (3).png"
+                alt="Logo"
+                width="110px"
+              />
+            </a>
           </div>
           <!-- Search Bar -->
           <div class="search_div">
-            <input class="searchbar" type="search" placeholder="Search Bar" />
+            <input class="searchbar" type="search" placeholder="Search" />
           </div>
           <!-- NavBar Content -->
           <div class="NavContent">
             <ul>
               <li>
-                <a href=""><b>Home</b></a>
+                <a href="/HTML/Home.html"><b>Home</b></a>
               </li>
               <li>
                 <a href=""><b>Recommendations</b></a>
@@ -51,18 +59,161 @@
         </nav>
       </section>
       <!-- Heading -->
-      <h1 id="header0" class="header">Interested In</h1>
-      <h1 id="header1" class="header">Riyadh Season<br/></h1>
-      <h1 id="header2" class="header">2024?</h1>
+      <div class="headings_div">
+        <h1 id="header0" class="header">Interested In</h1>
+        <h1 id="header1" class="header">Riyadh Season<br /></h1>
+        <h1 id="header2" class="header">2024?</h1>
+      </div>
       <!-- Heading Button -->
       <div class="btn_div">
         <button class="btn">
-            <span>
-                <b>Explore -</b>
-            </span>
+          <span>
+            <b>Explore -</b>
+          </span>
         </button>
       </div>
     </section>
-    <!--  -->
+    <!-- Seconed Section (About Riyadh Season) -->
+    <section class="two_sec">
+      <div class="span_con">
+        <div class="spaner">
+          <h1 id="span1" class="span0">
+            About Riyadh
+          </h1>
+          <div class="span_con1">
+            <h1 id="span2" class="span0">
+              Season
+            </h1>
+          </div>
+        </div>
+      </div>
+      <!-- Images -->
+      <img
+        id="img2"
+        class="img01"
+        src="/IMAGES/Festivals1.jpg"
+        width="400px"
+        alt="RS Festival"
+      />
+      <img
+        id="img02"
+        class="img01"
+        src="/IMAGES/Festivals2.jpg"
+        width="400px"
+        alt="RS Festival"
+      />
+      <!-- Paragraph -->
+      <div class="parDiv">
+        <p id="par1" class="par">
+          Riyadh Season is one of the world’s largest winter
+        </p>
+        <p id="par2" class="par">
+          entertainment event. Variety of food from around
+        </p>
+        <p id="par3" class="par">
+          the world, courtesy of exclusive restaurants plus
+        </p>
+        <p id="par4" class="par">
+          countless exciting surprises. The festivities capture
+        </p>
+        <p id="par5" class="par">
+          the essence of Saudi, from its Najdi heritage to its
+        </p>
+        <p id="par6" class="par">present day dynamism.</p>
+      </div>
+    </section>
+    <section class="hr_con">
+      <div class="hr"></div>
+    </section>
+    <!-- Third Section (Cards) -->
+    <section class="cards_con">
+      <!-- Header -->
+      <div class="header_con">
+        <h1>Explore More Zones</h1>
+      </div>
+      <!-- Container -->
+      <div class="cards_div">
+        <!-- First card -->
+        <div class="cards">
+          <div class="cards_background">
+            <div class="opacity">
+              <h1>Roshen Front</h1>
+            </div>
+          </div>
+          <div class="content">
+            <h1>Roshen Front</h1>
+            <div class="p">
+              <p>
+                Witness innovative design, which reimagines the future of the
+                workplace.
+              </p>
+            </div>
+          </div>
+          <div class="btn_div1">
+            <button><b>Discover</b></button>
+          </div>
+        </div>
+        <!-- Second Card -->
+        <div class="cards">
+          <div id="Card2" class="cards_background">
+            <div class="opacity">
+              <h1>The Groves</h1>
+            </div>
+          </div>
+          <div class="content">
+            <h1>The Groves</h1>
+            <div class="p">
+              <p>
+                Located in the Diplomatic Quarter, this zone offers luxury
+                shopping and dining.
+              </p>
+            </div>
+          </div>
+          <div class="btn_div1">
+            <button><b>Discover</b></button>
+          </div>
+        </div>
+        <!-- Third Card -->
+        <div class="cards">
+          <div id="Card3" class="cards_background">
+            <div class="opacity">
+              <h1>Kingdom Arena</h1>
+            </div>
+          </div>
+          <div class="content">
+            <h1>Kingdom Arena</h1>
+            <div class="p">
+              <p>
+                Able to accommodate more than 40,000 people, this venue hosts
+                concerts and more!
+              </p>
+            </div>
+          </div>
+          <div class="btn_div1">
+            <button><b>Discover</b></button>
+          </div>
+        </div>
+        <!-- Fourth Card -->
+        <div class="cards">
+          <div id="Card4" class="cards_background">
+            <div class="opacity">
+              <h1>Ramla Terraza</h1>
+            </div>
+          </div>
+          <div class="content">
+            <h1>Ramla Terraza</h1>
+            <div class="p">
+              <p>
+                Please your palate at Clap, Iris Café, Brute or Jones the Grocer
+                — all offer upscale eats.
+              </p>
+            </div>
+          </div>
+          <div class="btn_div1">
+            <button><b>Discover</b></button>
+          </div>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
