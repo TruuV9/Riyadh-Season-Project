@@ -11,7 +11,8 @@
 }
 /* Heading */
 .header_con{
-    width: fit-content;
+    display: flex;
+    justify-content: center;
     margin-top: 50px;
     margin-left: 50px;
     padding: 50px;

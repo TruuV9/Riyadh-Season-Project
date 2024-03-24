@@ -35,7 +35,7 @@ body{
 }
 /* Paragraph */
 .parDiv{
-    text-align: center;
+    text-align: left;
     width: fit-content;
     font-size: 1.5rem;
     color: #E5E5E5;

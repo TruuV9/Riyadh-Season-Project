@@ -67,7 +67,7 @@
 }
 /* Search Bar Effects */
 .searchbar:focus, .searchbar:hover{
-    width: 100%;
+    width: 90%;
     transition: .6s;
 }
 /* NavBar Content (SearchBar-Logo-Links) */
@@ -85,7 +85,7 @@
     bottom: 41.7px;   
     justify-content: space-around;
     gap: 15%;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
 }
 /* Nav Links Effects */
 .NavContent a{
@@ -169,8 +169,8 @@
 }
 .btn{
     border-radius: 100px;
-    padding: 10px;
-    font-size: 1.2rem;
+    padding: 15px;
+    font-size: 1.4rem;
     color: #e5e7e9;
     background-color: #25374500;
     border: 2px solid #ccd0cf;
