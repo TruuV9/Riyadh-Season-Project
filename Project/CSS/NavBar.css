@@ -1,4 +1,4 @@
-/* Import a font-style */
+/* Import a font-Family */
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 /* Decreasing the border */
 *{
@@ -19,6 +19,7 @@
     text-align: center;
     height: 107.6vh;
 }
+/* Video */
 .Nav_Background{
     position: relative;
     bottom: 83px;
@@ -37,6 +38,7 @@
     margin-left: 20px;
     background-color: rgba(128, 128, 128, 0);
 }
+/* Logo */
 .logo_div{
     width: fit-content;
 }
@@ -63,16 +65,19 @@
     color: #CCD0CF;
     border: none;
 }
+/* Search Bar Effects */
 .searchbar:focus, .searchbar:hover{
     width: 100%;
     transition: .6s;
 }
+/* NavBar Content (SearchBar-Logo-Links) */
 .NavContent{
     display: flex;
     justify-content: center;
     align-items: center;
 
 }
+/* Nav Links */
 .NavContent ul{
     display: flex;
     position: relative;
@@ -82,6 +87,7 @@
     gap: 15%;
     font-size: 1.2rem;
 }
+/* Nav Links Effects */
 .NavContent a{
 
     /* the linear gradient is treated as an image by the browser. */
@@ -136,17 +142,19 @@
     top: 30%;
     left: 6%;
 }
+/* Animation */
 @keyframes slider {
     from {
         transform: translateX(-120%);
     }
 }
-
+/* Indiviual Headings Editing */
 #header0{
     text-align: start;
 }
 #header1{
     animation: slider 1.2s;
+    text-align: start;
 }
 #header2{
     text-align: start;
@@ -170,6 +178,7 @@
     transition: width 0.6s;
     background-color: #11212d00;
 }
+    /* Button Effect */
 .btn:hover{
     width: 240%;
     cursor: pointer;

@@ -1,4 +1,5 @@
 /* Third Section */
+/* The divder Border */
 .hr_con{
     height: 20px;
     display: flex;
@@ -12,36 +13,42 @@
 .header_con{
     width: fit-content;
     margin-top: 50px;
-    margin-left: 100px;
+    margin-left: 50px;
     padding: 50px;
     font-size: 1.7rem;
     color: #E5E5E5;
 }
 /* Cards */
+/* Cards Container */
 .cards_div{
     display: flex;
+    flex-direction: row;
     justify-content: center;
+    align-items: center;
     gap: 50px;
+    margin-top: 20px;
 }
+/* Style For The Cards */
 .cards{
     width: 400px;
     border-radius: 25px;
     transition: height 0.6s;
     background-color: #464646;
     position: relative;
-    padding: 5px;
-    border: 2px solid black;
     transition: transform 0.6s;
+    transition: opacity 0.6s;
 }
+/* Cards Background Image */
 .cards_background{
     width: 100%;
     border-radius: 25px;
-    height: 200px;
-    background-image: url("/IMAGES/roshn-front.jpg");
+    height: 550px;
+    background-image: url("/IMAGES/Roshn.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
 }
+/* The effect on the card Image */
 .opacity{
     border-radius: 25px;
     position: absolute;
@@ -50,54 +57,63 @@
     left: 0;
     right: 0;
     background-color: rgba(0, 0, 0, 0.5);
-    z-index: 2;
-    display: flex;
-    width: 100%;
-    align-items: center;
+    width: 0%;
 }
-.cards:hover .opacity{
-    cursor: pointer;
-    opacity: 0;
+.cards_background:hover .opacity{
+    width: 100%;
     transition: 0.6s;
 }
-
-.opacity h1{
-    margin-left: 23.5%;
-    z-index: 4;
-    color: #E5E5E5;
-}
-/* Content */
-.content{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    height: 240px;
-    opacity: 0;
-    margin: 20px;
-    color: #E5E5E5;
-    transition: transform 0.6s;
-}
-.cards:hover .content{
+.cards_background:hover .contentView{
     opacity: 1;
     transition: 0.6s;
-    transform: scale(1.05);
 }
-.p{
-    font-size: larger;
+/* Cards Content */
+.contentView{
+    position: relative;
+    z-index: 1;
+    opacity: 0;
+    transition: 0.6s;
+    padding: 100px 20px 40px 40px;
+    color: #E5E5E5;
 }
-/* Organizing the cards backgorund */
+.borderBtm{
+    margin-left: 70px;
+    margin-top: 30px;
+    position: relative;
+    right: 70px;
+    width: 90%;
+}
+.borderBtm div{
+    border: 1px solid white;
+    width: 100%;
+}
+/* Cards Header */
+.opacityHeader{
+    font-size: 1.3rem;
+    transition: opacity 0.6s;
+}
+/* Cards Paragraph */
+.opacity_par{
+    transition: opacity 0.6s;
+    margin-top: 40px;
+    font-size: 1.3rem;
+}
+/* Applying The Images */
 #Card2{
-    background-image: url("/IMAGES/the-groves-new.jpg");
+    background-image: url("/IMAGES/TheGroves.jpg");
 }
 #Card3{
-    background-image: url("/IMAGES/kingdom-arena-new.jpg");
+    background-image: url("/IMAGES/arenna.jpg");
 }
 #Card4{
-    background-image: url("/IMAGES/ramla-terraza.jpg");
+    background-image: url("/IMAGES/tranzzz.jpg");
 }
-/* Button */
+/* Cards Button */
 .btn_div1{
     text-align: end;
+    margin-top: 160px;
+    width: 100%;
+    transition: opacity 0.6s;
 }
 .btn_div1 button{
     border-radius: 100px;

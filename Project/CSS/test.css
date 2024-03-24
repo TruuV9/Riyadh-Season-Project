@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+    background-color: gray;
+}
+.formcon{
+    background-color: aliceblue;
+    height: 100px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.formdiv1{
+    position: relative;
+    height: 20px;
+}
+.formdiv1 input{
+    border: none;
+    border-bottom: 2px solid;
+    height: 100%;
+    width: 100%;
+}
+.formdiv1 label{
+    font-size: 11px;
+    position: absolute;
+    bottom: 0%;
+    font-family: poppins;
+    pointer-events: none;
+}
+.formdiv1 input:focus ~ label{
+    position: absolute;
+    bottom: 90%;
+    transition: 0.3s;
+
+}
+.formdiv1 input:focus{
+    outline: 0;
+}

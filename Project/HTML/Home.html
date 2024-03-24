@@ -8,16 +8,17 @@
     <link rel="stylesheet" href="/CSS/NavBar.css" />
     <link rel="stylesheet" href="/CSS/SecondSec.css" />
     <link rel="stylesheet" href="/CSS/ThirdSec.css" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Poppins"
-      rel="stylesheet"
-    />
+    <link rel="stylesheet" href="/CSS/FourthSec.css">
+    <link rel="stylesheet" href="/CSS/Form.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins"rel="stylesheet"/>
   </head>
   <body>
     <!-- NavBar including the Background -->
+    <!-- The effect on the video -->
     <section id="Main" class="darker">
+      <!-- Container (NavBar-Video) -->
       <section class="Nav_con">
-        <!-- Intro Video -->
+        <!-- Introduction Video -->
         <video
           autoplay
           loop
@@ -28,29 +29,30 @@
         ></video>
         <!-- Navbar -->
         <nav class="NavBar">
+          <!-- Logo Div -->
           <div class="logo_div">
             <a href="/HTML/Home.html">
-              <img
-                id="logo"
-                src="/IMAGES/logo (3).png"
-                alt="Logo"
-                width="110px"
-              />
+              <!-- Logo -->
+              <img id="logo" src="/IMAGES/Logo4.png" alt="Logo" width="110px" />
             </a>
           </div>
-          <!-- Search Bar -->
+          <!-- Search Bar Div-->
           <div class="search_div">
+            <!-- Search Bar -->
             <input class="searchbar" type="search" placeholder="Search" />
           </div>
           <!-- NavBar Content -->
           <div class="NavContent">
             <ul>
+              <!-- Home -->
               <li>
                 <a href="/HTML/Home.html"><b>Home</b></a>
               </li>
+              <!-- Recommendation -->
               <li>
-                <a href=""><b>Recommendations</b></a>
+                <a href="#recommendations"><b>Recommendations</b></a>
               </li>
+              <!-- Packages -->
               <li>
                 <a href=""><b>Packages</b></a>
               </li>
@@ -60,34 +62,35 @@
       </section>
       <!-- Heading -->
       <div class="headings_div">
-        <h1 id="header0" class="header">Interested In</h1>
-        <h1 id="header1" class="header">Riyadh Season<br /></h1>
-        <h1 id="header2" class="header">2024?</h1>
+        <h1 id="header0" class="header">Your Essential</h1>
+        <h1 id="header1" class="header">Riyadh Season</h1>
+        <h1 id="header2" class="header">GuideLine In 2024</h1>
       </div>
       <!-- Heading Button -->
+      <!-- Button Container -->
       <div class="btn_div">
-        <button class="btn">
-          <span>
-            <b>Explore -</b>
-          </span>
+        <!-- Button -->
+        <button onclick="location.href='#about3'" class="btn">
+            <span>
+              <b>Explore -</b>
+            </span>
         </button>
       </div>
     </section>
     <!-- Seconed Section (About Riyadh Season) -->
-    <section class="two_sec">
+    <!-- Section Container -->
+    <section id="about3" class="two_sec">
+      <!-- About Riyadh Container -->
       <div class="span_con">
         <div class="spaner">
-          <h1 id="span1" class="span0">
-            About Riyadh
-          </h1>
+          <h1 id="span1" class="span0">About Riyadh</h1>
           <div class="span_con1">
-            <h1 id="span2" class="span0">
-              Season
-            </h1>
+            <h1 id="span2" class="span0">Season</h1>
           </div>
         </div>
       </div>
       <!-- Images -->
+      <!-- image1 -->
       <img
         id="img2"
         class="img01"
@@ -95,6 +98,7 @@
         width="400px"
         alt="RS Festival"
       />
+      <!-- image2 -->
       <img
         id="img02"
         class="img01"
@@ -102,8 +106,9 @@
         width="400px"
         alt="RS Festival"
       />
-      <!-- Paragraph -->
+      <!-- Paragraph Container -->
       <div class="parDiv">
+        <!-- Paragraphes -->
         <p id="par1" class="par">
           Riyadh Season is one of the world’s largest winter
         </p>
@@ -122,98 +127,167 @@
         <p id="par6" class="par">present day dynamism.</p>
       </div>
     </section>
+    <!-- The Divder Between The 2 Sections -->
     <section class="hr_con">
       <div class="hr"></div>
     </section>
     <!-- Third Section (Cards) -->
-    <section class="cards_con">
+    <section id="recommendations" class="cards_con">
       <!-- Header -->
       <div class="header_con">
-        <h1>Explore More Zones</h1>
+        <h1>Recommended Places</h1>
       </div>
-      <!-- Container -->
-      <div class="cards_div">
+      <!-- Cards Container -->
+      <section class="cards_div">
         <!-- First card -->
         <div class="cards">
-          <div class="cards_background">
-            <div class="opacity">
-              <h1>Roshen Front</h1>
+            <!-- Card Image -->
+            <div class="cards_background"> 
+                <!-- Card Dark Background -->
+                <div class="opacity"></div>
+                <!-- Card content -->
+                <div class="contentView">
+                  <!-- Header -->
+                    <div class="opacityHeader">
+                        <h1>Roshn Front</h1>
+                    </div>
+                    <!-- Divder Border -->
+                    <div class="borderBtm">
+                        <div></div>
+                    </div>
+                    <!-- Paragraph -->
+                    <div class="opacity_par">
+                        <p>
+                            Witness innovative design, which reimagines the future <br> of the
+                            workplace.
+                        </p>
+                    </div>
+                    <!-- Button -->
+                    <div class="btn_div1">
+                      <button onclick="window.location.href = 'https://roshnfront.sa/'"><b>Discover</b></button>
+                    </div>
+                </div>
             </div>
-          </div>
-          <div class="content">
-            <h1>Roshen Front</h1>
-            <div class="p">
-              <p>
-                Witness innovative design, which reimagines the future of the
-                workplace.
-              </p>
-            </div>
-          </div>
-          <div class="btn_div1">
-            <button><b>Discover</b></button>
-          </div>
         </div>
-        <!-- Second Card -->
+    
+        <!-- Second card -->
         <div class="cards">
-          <div id="Card2" class="cards_background">
-            <div class="opacity">
-              <h1>The Groves</h1>
+                      <!-- Card Image -->
+            <div id="Card2" class="cards_background">
+                              <!-- Card Dark Background -->
+                <div class="opacity"></div>
+                                <!-- Card content -->
+
+                <div class="contentView">
+                                    <!-- Header -->
+                    <div class="opacityHeader">
+                        <h1>The Groves</h1>
+                    </div>
+                    <!-- Divder Border -->
+                    <div class="borderBtm">
+                        <div></div>
+                    </div>
+                    <!-- Paragraph -->
+                    <div class="opacity_par">
+                        <p>
+                          Located in the Diplomatic Quarter, this zone offers luxury
+                          shopping and dining.
+                        </p>
+                    </div>
+                    <!-- Button -->
+                    <div class="btn_div1">
+                      <button onclick="window.location.href = 'https://www.thegroves-sa.com/'"><b>Discover</b></button>
+                    </div>
+                </div>
             </div>
-          </div>
-          <div class="content">
-            <h1>The Groves</h1>
-            <div class="p">
-              <p>
-                Located in the Diplomatic Quarter, this zone offers luxury
-                shopping and dining.
-              </p>
-            </div>
-          </div>
-          <div class="btn_div1">
-            <button><b>Discover</b></button>
-          </div>
         </div>
-        <!-- Third Card -->
-        <div class="cards">
+         <!-- Third card -->
+         <div class="cards">
+                      <!-- Card Image -->
           <div id="Card3" class="cards_background">
-            <div class="opacity">
-              <h1>Kingdom Arena</h1>
+              <div class="opacity"></div>
+              <!-- Content -->
+              <div class="contentView">
+                <!-- Header -->
+                  <div class="opacityHeader">
+                      <h1>Kingdom Arena</h1>
+                  </div>
+                  <!-- Divde Border -->
+                  <div class="borderBtm">
+                      <div></div>
+                  </div>
+                  <!-- Paragraph -->
+                  <div class="opacity_par">
+                      <p>
+                        Able to accommodate more than 40,000 people, this venue hosts
+                        concerts and more!
+                      </p>
+                  </div>
+                  <!-- Button -->
+                  <div class="btn_div1">
+                    <button onclick="window.location.href = 'https://kingdomarena-sa.com/'"><b>Discover</b></button>
+                  </div>
+              </div>
+          </div>
+      </div>
+       <!-- Fourth card -->
+       <div class="cards">
+                    <!-- Card Image -->
+        <div id="Card4" class="cards_background">
+          <!-- Card Dark Background -->
+            <div class="opacity"></div>
+            <!-- Card Content -->
+            <div class="contentView">
+                <div class="opacityHeader">
+                  <!-- Header -->
+                    <h1>Ramla Terraza</h1>
+                </div>
+                <!-- Divder Border -->
+                <div class="borderBtm">
+                    <div></div>
+                </div>
+                <!-- Paragraph -->
+                <div class="opacity_par">
+                    <p>
+                      Please your palate at Clap, Iris Café, Brute or Jones the Grocer
+                      — all offer upscale eats.
+                    </p>
+                </div>
+                <!-- Button -->
+                <div class="btn_div1">
+                  <button onclick="window.location.href = 'https://welcomesaudi.com/activity/ramla-terraza-riyadh'"><b>Discover</b></button>
+                </div>
             </div>
-          </div>
-          <div class="content">
-            <h1>Kingdom Arena</h1>
-            <div class="p">
-              <p>
-                Able to accommodate more than 40,000 people, this venue hosts
-                concerts and more!
-              </p>
-            </div>
-          </div>
-          <div class="btn_div1">
-            <button><b>Discover</b></button>
-          </div>
         </div>
-        <!-- Fourth Card -->
-        <div class="cards">
-          <div id="Card4" class="cards_background">
-            <div class="opacity">
-              <h1>Ramla Terraza</h1>
-            </div>
-          </div>
-          <div class="content">
-            <h1>Ramla Terraza</h1>
-            <div class="p">
-              <p>
-                Please your palate at Clap, Iris Café, Brute or Jones the Grocer
-                — all offer upscale eats.
-              </p>
-            </div>
-          </div>
-          <div class="btn_div1">
-            <button><b>Discover</b></button>
+    </div>
+    </section> 
+    <!-- Fourth Section Picture -->
+    <section id="hr1" class="hr_con">
+      <div class="hr"></div>
+    </section>
+    <section class="fourthSec">
+      <!-- Image  (Roshn Front) -->
+      <div class="con123">
+        <div class="roshnImgCon">
+          <div class="Header_con1">
+            <h1>Roshn Front</h1>
           </div>
         </div>
       </div>
+    </section>
+    <!-- Advise Section -->
+    <section class="AdviseSec">
+      <div class="adHeader">
+        <h1> Looking For <br> Speacial Advising?</h1>
+      </div>
+      <div class="formcon">
+        <form>
+        <div class="formdiv1">
+            <input type="text">
+            <label>Username</label
+        </div>
+      </form>
+    </div>
     </section>
   </body>
 </html>

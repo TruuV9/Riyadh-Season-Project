@@ -1,0 +1,39 @@
+/* Section Four */
+#hr1{
+    margin-top: 90px;
+}
+.con123{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.roshnImgCon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-image: url("/IMAGES/Roshn1.jpg");
+    background-repeat: no-repeat;
+    width: 1200px;
+    height: 530px;
+    border-radius: 50px;
+}
+.Header_con1{
+    position: absolute;
+    font-size: 2.5rem;
+    color: #E5E5E5;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    transition: opacity 0.6s;
+}
+/* Image Effect */
+.Header_con1:hover{
+    opacity: 0;
+    transition: 0.6s;
+    cursor: pointer;
+} 

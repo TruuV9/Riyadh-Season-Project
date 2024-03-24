@@ -1,7 +1,9 @@
+/* Page Background */
 body{
     background-color: #111111;
     height: 300vh;
 }
+/* Section */
 .two_sec{
     position: relative;
     height: 85vh;
@@ -59,7 +61,7 @@ body{
 #par6{
     animation: slider 1.9s;
 }
-
+/* Animation */
 @keyframes slider {
     from {
         transform: translateX(-120%);
@@ -78,13 +80,14 @@ body{
     top: 290px;
     animation: sliderimg 1.2s;
 }
+/* Animation For Images */
 @keyframes sliderimg {
     from {
         transform: translateX(220%);
     }
 }
 .img01{
-    transition: transform 0.6s;
+    transition: 0.6s;
     border-radius: 4%;
 }
 .img01:hover{
