@@ -1,0 +1,13 @@
+.darker{
+    background: rgb(17,17,17);
+    background: linear-gradient(0deg, rgba(17,17,17,1) 0%, rgba(17,17,17,0.6979166666666667) 10%, rgba(29,31,33,0.7287289915966386) 90%, rgba(17,17,17,1) 100%);
+    text-align: center;
+    height: 129vh;
+}
+.headings_div{
+    width: fit-content;
+    text-align: center;
+    position: absolute;
+    top: 30%;
+    left: 4%;
+}
