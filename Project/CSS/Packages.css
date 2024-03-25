@@ -1,6 +1,4 @@
-*{
-    transition: 0.3s;
-}
+
 
 
 .darker{
@@ -138,5 +136,4 @@
     color: #14213D;
     border: 2px solid #14213D;
     transition: 0.6s;
-    border: none;
 }

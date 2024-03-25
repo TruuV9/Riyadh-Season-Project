@@ -13,7 +13,7 @@ Footer{
     justify-content: space-between;
 }
 .icons span{
-    color: gray;
+    color: #463F3A;
     margin-top: 10px;
 }
 .emailcon{
@@ -71,27 +71,31 @@ Footer{
     width: 400px;
     display: flex;
     flex-wrap: wrap;
-    background-color: #464646;
+    background-color: #232323;
 }
 .formBorder{
-    border: 2px inset #232323;
-    width: fit-content;
+    width: 95%;
     padding: 30px;
-    background-color: #464646;
-
+    background-color: #232323;
+    border-radius: 20px;
+    border: 2px solid red;
 }
 .formBorder h1{
     color: #E5E5E5;
 }
 .form form{
-    width: 100%;
+    width: 120%;
     padding: 20px;
+    border-radius: 20px;
 }
 .form input{
-    border-radius: 20px;
+    border-radius: 8px;
     padding: 5px;
     outline: none;
-    background: transparent;
+    background-color: transparent;
+}
+.form input::placeholder{
+    color: #BCB8B1;
 }
 .submitdiv{
     text-align: end;
@@ -100,14 +104,15 @@ Footer{
 }
 .submit{
     width: 100%;
-    background-color: #E5E5E5;
+    background-color: #464646;
     transition: 0.6s;
     font-weight: bolder;
+    color: #BCB8B1;
 }
 .submit:hover{
     cursor: pointer;
     background-color: #E5E5E5;
-    color: #464646;
+    color: #232323;
 }
 .btm{
     margin-top: 20px;
@@ -128,7 +133,7 @@ Footer{
     margin-top: 20px;
 }
 #msg{
-    width: 60%;
+    width: 100%;
 }
 .copyright{
     position: relative;

@@ -14,6 +14,7 @@ body{
     overflow-x: hidden;
         background-color: #111111;
         height: 300vh;
+        transition: 0.3s;
 }
 /* NavBar including the Background */
 /* Background */
