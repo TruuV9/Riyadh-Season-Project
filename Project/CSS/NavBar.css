@@ -12,6 +12,8 @@
 }
 body{
     overflow-x: hidden;
+        background-color: #111111;
+        height: 300vh;
 }
 /* NavBar including the Background */
 /* Background */

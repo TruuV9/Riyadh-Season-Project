@@ -4,15 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="/CSS/test.css">
+    <style>
+        .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card-checkbox {
+  display: none;
+}
+
+.card {
+  width: 200px;
+  height: 150px;
+  background-color: lightblue;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.card-content {
+  padding: 15px;
+}
+
+.card-checkbox:checked + .card {
+  transform: scale(1.1);
+}
+
+    </style>
 </head>
 <body>
-    <div class="formcon">
-        <form class="formdiv1">
-            <input type="text">
-            <label>Username</label
-        </form>
-
-    </div>
+    <div class="container">
+        <input type="checkbox" id="card1" class="card-checkbox">
+        <label for="card1" class="card">
+          <div class="card-content">
+            <!-- Your card content goes here -->
+            <h2>Card 1</h2>
+            <p>This is a draggable card.</p>
+          </div>
+        </label>
+      </div>
+      
 </body>
 </html>
