@@ -107,18 +107,12 @@ body{
 }
 /* Nav Links Effects */
 .NavContent a{
-
-    /* the linear gradient is treated as an image by the browser. */
-
      background-image: linear-gradient(
         to right,
         #54b3d6,
         #54b3d6 50%,
         #e5e7e9 50%
       );
-
-      /*  200% width and 100% height */
-
       background-size: 200% 100%;
       background-position: -100%;
       display: inline-block;
