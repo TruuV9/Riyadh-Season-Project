@@ -19,6 +19,11 @@
     position: relative;
     left: 135px;
 } 
+/* SearchBar */
+.searchbar:focus, .searchbar:hover{
+    width: 87%;
+    transition: .6s;
+}
 /* Video Header */
 .headings_div{
     transform: translate(105%);

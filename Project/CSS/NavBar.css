@@ -72,7 +72,7 @@ body{
 }
 /* Search Bar Effects */
 .searchbar:focus, .searchbar:hover{
-    width: 87%;
+    width: 80%;
     transition: .6s;
 }
 /* NavBar Content (SearchBar-Logo-Links) */
