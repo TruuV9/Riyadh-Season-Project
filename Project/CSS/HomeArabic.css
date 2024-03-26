@@ -1,6 +1,6 @@
-@import url(https://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
-*{
-    font-family: 'Droid Arabic Kufi', serif;}
+/* File to make the page in Arabic */
+
+/* Language Changing Button */
 .LangChange{
     position: relative;
     left: 15px;
@@ -9,6 +9,7 @@
     transition: 0.3s;
     height: fit-content;
 }
+/* Nav Content (Home etc..) */
 .NavContent ul{
     display: flex;
     position: relative;
@@ -18,10 +19,11 @@
     justify-content: space-around;
     gap: 15%;
 }
+/* Video Header */
 .headings_div{
     transform: translate(135%);
 }
-/* Button */
+/* Header Button */
 .btn_div {
     width: fit-content;
     text-align: center;
@@ -29,7 +31,6 @@
     top: 85%;
     left: 18%;
 }
-
 .btn {
     border-radius: 100px;
     padding: 15px;
@@ -50,6 +51,7 @@
     background-color: #e5e7e9;
     transition: width 0.6s;
 }
+/* Second Section (About Riyadh) */
 .spaner{
     transform: translate(300%);
     border-left: 5px solid #FCA311;
@@ -59,6 +61,7 @@
     position: relative;
     right: 10px;
 }
+/* About Riyadh Paragraph */
 .parDiv{
     text-align: start;
     width: fit-content;
@@ -68,6 +71,7 @@
     right: 7%;
     top: 7%;
 }
+/* Images */
 #img02{
     position: relative;
     bottom: 70px;
@@ -80,6 +84,7 @@
     top: 290px;
     animation: sliderimg 1.2s;
 }
+/* Divder */
 .borderBtm{
     margin-left: 70px;
     margin-bottom: 30px;
@@ -87,6 +92,7 @@
     right: 0px;
     width: 90%;
 }
+/* Cards Button */
 .btn_div1{
     text-align: start;
     margin-top: 120px;
@@ -95,77 +101,4 @@
 }
 #btn_div2{
     margin-top: 160px;
-}
-.form{
-    height: 250px;
-    width: 590px;
-    display: flex;
-    flex-wrap: wrap;
-    background-color: #464646;
-}
-.formBorder{
-    border: 2px inset #232323;
-    width: fit-content;
-    padding: 30px;
-    background-color: #464646;
-
-}
-.formBorder h1{
-    color: #E5E5E5;
-}
-.form form{
-    width: 100%;
-    padding: 20px;
-    color: #E5E5E5;
-}
-.namediv{
-    display: flex;
-    justify-content: space-between;
-    width: 570px;
-}
-.emaildiv{
-    display: flex;
-    justify-content: space-between;
-    width: 570px;
-}
-.msgCon{
-    height: 120px;
-}
-#btm1::placeholder{
-    text-align: end;
-}
-.form input{
-    border-radius: 20px;
-    padding: 5px;
-    outline: none;
-    background: transparent;
-}
-.form{
-    height: 320px;
-    width: 590px;
-    display: flex;
-    flex-wrap: wrap;
-    background-color: #464646;
-}
-.submitdiv{
-    text-align: start;
-    width: 107%;
-    margin-top: 30px;
-    position: relative;
-    left: 20px;
-}
-#right{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    border-right: 2px solid #CCD0CF;
-    border-left: none;
-    margin-right: 60px;
-    height: 450px;
-}
-.aboutFooter{
-    padding-right: 60px;
-}
-footer{
-    height: 85vh;
 }

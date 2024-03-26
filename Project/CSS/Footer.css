@@ -1,4 +1,6 @@
-Footer{
+/* last Section (Footer) */
+
+Footer {
     background-color: #232323;
     display: flex;
     flex-direction: column;
@@ -6,30 +8,36 @@ Footer{
     height: 83vh;
     border-top: 2px solid#E5E5E5;
 }
-.icons{
+/* Contact Icons */
+.icons {
     width: 40%;
     margin-top: 60px;
     display: flex;
     justify-content: space-between;
 }
-.icons span{
+
+.icons span {
     color: #463F3A;
     margin-top: 10px;
 }
-.emailcon{
+/* Email and Telephone Number */
+.emailcon {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.emailcon img{
+
+.emailcon img {
     transition: 0.6s;
 }
-.emailcon img:hover{
+
+.emailcon img:hover {
     filter: brightness(0) invert(.8);
 }
-/* Other */
-.test{
+
+/* Footer Content (About etc...) */
+.test {
     width: 60%;
     margin-top: 20px;
     display: flex;
@@ -37,189 +45,133 @@ Footer{
     height: 300px;
     border-top: 2px solid white;
 }
-.else{
+
+.else {
     width: 70%;
     display: inline-block;
     margin-top: 50px;
 }
-#right{
+/* The Right Side of the Footer */
+#right {
     display: flex;
     justify-content: space-around;
     align-items: center;
     border-left: 2px solid #CCD0CF;
     height: 450px;
 }
-.aboutFooter{
+
+.aboutFooter {
     display: inline-block;
 }
-.aboutFooter h3{
+
+.aboutFooter h3 {
     color: #CCD0CF;
     margin-bottom: 10px;
     font-size: 1.5rem;
     cursor: default;
 }
-.aboutFooter p{
+
+.aboutFooter p {
     color: gray;
     margin: 4px;
     transition: 0.6s;
 }
-.aboutFooter a:hover{
+
+.aboutFooter a:hover {
     font-weight: bolder;
 }
-.form{
+/* The Left Side of the Footer (Form) */
+.form {
     height: 320px;
-    width: 400px;
+    width: 580px;
     display: flex;
     flex-wrap: wrap;
     background-color: #232323;
 }
-.formBorder{
+
+.formBorder {
     width: 95%;
     padding: 30px;
     background-color: #232323;
     border-radius: 20px;
-    border: 2px solid red;
 }
-.formBorder h1{
+
+.formBorder h1 {
     color: #E5E5E5;
 }
-.form form{
-    width: 120%;
+
+.form form {
+    width: 5000px;
     padding: 20px;
     border-radius: 20px;
 }
-.form input{
+/* Form Inputs */
+.form input {
     border-radius: 8px;
     padding: 5px;
     outline: none;
     background-color: transparent;
+    width: 250px;
 }
-.form input::placeholder{
+
+.form input::placeholder {
     color: #BCB8B1;
 }
-.submitdiv{
-    text-align: end;
+/* Form Submit */
+.submitdiv {
+    text-align: center;
     width: 107%;
     margin-top: 30px;
 }
-.submit{
+
+.submitdiv input {
+    width: 100%;
+    position: relative;
+    right: 20px;
+}
+
+.submit {
     width: 100%;
     background-color: #464646;
     transition: 0.6s;
     font-weight: bolder;
     color: #BCB8B1;
 }
-.submit:hover{
+
+.submit:hover {
     cursor: pointer;
     background-color: #E5E5E5;
     color: #232323;
 }
-.btm{
+/* Divders */
+.btm {
     margin-top: 20px;
 }
-#btm1{
+
+#btm1 {
     position: relative;
     left: 20px;
 }
-.left{
+
+.left {
     position: relative;
     left: 20px;
 }
-.msgCon{
+
+.msgCon {
     width: 100%;
     display: flex;
     justify-content: center;
     height: 50%;
     margin-top: 20px;
 }
-#msg{
+
+#msg {
     width: 100%;
 }
-.copyright{
+/* CopyRight */
+.copyright {
     position: relative;
     top: 260px;
     color: #CCD0CF;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Form */
-/* .AdviseSec{
-    border: 2px solid wheat;
-    display: flex;
-}
-.adHeader{
-    display: inline-block;
-    width: fit-content;
-    margin-top: 50px;
-    margin-left: 50px;
-    padding: 50px;
-    font-size: 1.7rem;
-    color: #E5E5E5;
-}
-.formcon{
-    margin-left: 210px;
-    margin-top: 200px;
-    display: inline-block;
-    background-color: #14213D;
-    padding: 45px;
-    border-radius: 20px;
-    border: 2px solid tomato;
-    width: 630px;
-    height: 300px;
-}
-.formdiv1{
-    position: relative;
-    display: inline-block;
-    height: 20px;
-}
-.formdiv1 form{
-    display: flex;
-    border: 2px solid yellow;
-}
-.formdiv1 input{
-    border: none;
-    border-bottom: 2px solid;
-    padding: 14px;
-    border-radius: 20px;
-    width: 130%;
-    height: 40px;
-}
-.formdiv1 label{
-    font-size: 11px;
-    position: absolute;
-    bottom: 0%;
-    left: 0%;
-    font-family: poppins;
-    pointer-events: none;
-}
-.left{
-    position: relative;
-    left: 50%;
-}
-.btm{
-    position: relative;
-    top: 30px;
-}
-#btm1{
-    position: relative;
-    left: 50%;
-}
-.formdiv1 input:focus{
-    outline: 0;
-} */

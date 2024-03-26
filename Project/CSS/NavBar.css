@@ -12,9 +12,9 @@
 }
 body{
     overflow-x: hidden;
-        background-color: #111111;
-        height: 300vh;
-        transition: 0.3s;
+    background-color: #111111;
+    height: 300vh;
+    transition: 0.3s;
 }
 /* NavBar including the Background */
 /* Background */
@@ -86,7 +86,7 @@ body{
 .NavContent ul{
     display: flex;
     position: relative;
-    right: 60px;
+    right: 140px;
     bottom: 41.7px;   
     justify-content: space-around;
     gap: 15%;
@@ -94,7 +94,6 @@ body{
 }
 .LangChange{
     position: relative;
-    left: 25px;
     top: 11px;
     filter: brightness(0) invert(.79);
     transition: 0.3s;

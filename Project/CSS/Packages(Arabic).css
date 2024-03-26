@@ -1,3 +1,5 @@
+/* File to make the page in Arabic */
+/* Cards Header */
 .borderBtm{
     display: flex;
     justify-content: start;
@@ -5,6 +7,7 @@
     right: -0px;
     width: 70%;
 }
+/* Cards Button */
 .btn_div1{
     text-align: end;
     margin-top: 160px;
@@ -21,6 +24,7 @@
     color: #e5e7e9;
     border: 2px solid #e5e7e9;
 }
+/* Cards button Hover */
 .btn_div1 button:hover{
     width: 80%;
     cursor: pointer;

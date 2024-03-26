@@ -1,0 +1,87 @@
+/* Email and Telephone Number */
+.emaildiv{
+    display: flex;
+    justify-content: space-between;
+    width: 570px;
+}
+.msgCon{
+    height: 120px;
+}
+/* Form */
+.form{
+    height: 250px;
+    width: 590px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #464646;
+}
+.formBorder{
+    width: fit-content;
+    padding: 30px;
+    border: none;
+}
+.formBorder h1{
+    color: #E5E5E5;
+}
+.form form{
+    width: 100%;
+    padding: 20px;
+    color: #E5E5E5;
+}
+.namediv{
+    display: flex;
+    justify-content: space-between;
+    width: 570px;
+}
+/* Form Inputs */
+#btm1::placeholder{
+    text-align: end;
+}
+.form input{
+    border-radius: 8px;
+    padding: 5px;
+    outline: none;
+    background: transparent;
+    width: 250px;
+}
+.form input[type="text"]{
+    color: #e5e7e9;
+}
+.form{
+    height: 320px;
+    width: 590px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #232323;
+    color: #e5e7e9;
+}
+/* Form Submit */
+.submitdiv{
+    text-align: start;
+    width: 107%;
+    margin-top: 30px;
+    position: relative;
+    left: 20px;
+    display: flex;
+    justify-content: center;
+}
+.submitdiv input{
+    width: 100%;
+    margin-left: 20px;
+}
+/* The Right Side of the Footer */
+#right{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-right: 2px solid #CCD0CF;
+    border-left: none;
+    margin-right: 60px;
+    height: 450px;
+}
+.aboutFooter{
+    padding-right: 60px;
+}
+footer{
+    height: 85vh;
+}

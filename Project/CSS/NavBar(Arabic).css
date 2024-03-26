@@ -1,32 +1,29 @@
+/* File to make the page in Arabic */
+
+/* Importing a font */
 @import url(https://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
 *{
     font-family: 'Droid Arabic Kufi', serif;
 }
-body{
-    font-family: 'Droid Arabic Kufi', serif;
-}
-
+/* Language Changing Button */
 .LangChange{
-    position: relative;
-    left: 15px;
-    top: 11px;
     filter: brightness(0) invert(.79);
     transition: 0.3s;
-    height: fit-content;
 }
-.NavContent ul{
-    display: flex;
+/* Nav Content (Home etc..) */
+.NavContent li{
     position: relative;
-    left: 90px;
-    margin-left: 140px;
-    bottom: 41.7px;   
-    justify-content: space-around;
-    gap: 15%;
+    left: 220px;
 }
+#NavContentId1 li{
+    position: relative;
+    left: 135px;
+} 
+/* Video Header */
 .headings_div{
     transform: translate(105%);
 }
-/* Button */
+/* Video Header */
 .btn_div {
     width: fit-content;
     text-align: center;
@@ -34,7 +31,6 @@ body{
     top: 85%;
     left: 18%;
 }
-
 .btn {
     border-radius: 100px;
     padding: 15px;
@@ -47,7 +43,6 @@ body{
     background-color: #11212d00;
     cursor: pointer;/
 }
-
 /* Button Effect */
 .btn:hover {
     width: 240%;
