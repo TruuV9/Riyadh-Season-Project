@@ -80,69 +80,6 @@ Footer {
 .aboutFooter a:hover {
     font-weight: bolder;
 }
-/* The Left Side of the Footer (Form) */
-.form {
-    height: 320px;
-    width: 580px;
-    display: flex;
-    flex-wrap: wrap;
-    background-color: #232323;
-}
-
-.formBorder {
-    width: 95%;
-    padding: 30px;
-    background-color: #232323;
-    border-radius: 20px;
-}
-
-.formBorder h1 {
-    color: #E5E5E5;
-}
-
-.form form {
-    width: 5000px;
-    padding: 20px;
-    border-radius: 20px;
-}
-/* Form Inputs */
-.form input {
-    border-radius: 8px;
-    padding: 5px;
-    outline: none;
-    background-color: transparent;
-    width: 250px;
-}
-
-.form input::placeholder {
-    color: #BCB8B1;
-}
-/* Form Submit */
-.submitdiv {
-    text-align: center;
-    width: 107%;
-    margin-top: 30px;
-}
-
-.submitdiv input {
-    width: 100%;
-    position: relative;
-    right: 20px;
-}
-
-.submit {
-    width: 100%;
-    background-color: #464646;
-    transition: 0.6s;
-    font-weight: bolder;
-    color: #BCB8B1;
-}
-
-.submit:hover {
-    cursor: pointer;
-    background-color: #E5E5E5;
-    color: #232323;
-}
 /* Divders */
 .btm {
     margin-top: 20px;

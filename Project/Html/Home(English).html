@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="/CSS/NavBar.css" />
   <link rel="stylesheet" href="/CSS/About.css" />
   <link rel="stylesheet" href="/CSS/Cards.css" />
+  <link rel="stylesheet" href="/CSS/Form.css">
   <link rel="stylesheet" href="/CSS/Footer.css">
   <link rel="stylesheet" href="/CSS/Responsive.css">
   <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet" />
@@ -251,31 +252,139 @@
         </div>
       </div>
     </section>
+
+
+
+
+
+
+
+
+
+
     <!-- Fourth Section Picture -->
-    <section class="imgBigCon">
-      <div class="imgCon">
-        <img src="/IMAGES/Roshn1.jpg" width="900px" alt="RoshnFront">
-        <div class="backgroundimg">
-          <div class="HeaderImg">
-            <h1>Roshn Front</h1>
-            <section id="hr2" class="hr_con">
-              <div class="hr"></div>
-            </section>
+
+    <section class="form_section">
+      <form action="SQL-SUBMIT">
+        <div class="imgDiv">
+          <img src="/IMAGES/Logo4.png" alt="" width="150">
+        </div>
+        <div class="inputsCon">
+          <div class="inputsDiv">
+            <input class="textInput" type="text" id="FirstName">
+            <label class="textlabel" id="FirstNameLabel" for="FirstName">
+              First Name
+            </label>
           </div>
-          <div class="PImg">
-            <p>As a part of its efforts to bring a new way of integrated living to the Kingdom,
-              ROSHN has expanded its footprint in Riyadh by acquiring the ROSHN Front shopping and business area,
-              located adjacent to ROSHN’s flagship development,
-              SEDRA. The acquisition enables ROSHN to become a multi-asset class real estate developer and manager of
-              global significance.
-              An extraordinary urban experience that reimagines how we work, play, dine, shop,
-              and share space in the north of Riyadh.
-            </p>
+
+          <div class="inputsDiv">
+            <input class="textInput" type="text" id="LastName">
+            <label class="textlabel" id="LastNameLabel" for="LastName">
+              Last Name
+            </label>
+          </div>
+
+          <div class="inputsDiv">
+            <input class="textInput1" type="email" id="Email">
+            <label class="textlabel1" id="EmailLabel" for="Email">
+              Email
+            </label>
+          </div>
+
+          <div class="inputsDiv">
+            <input class="textInput1" type="tel" id="Telephone">
+            <label class="textlabel1" id="TeleLabel" for="Telephone">
+              Telephone
+            </label>
+          </div>
+        </div>
+        <div class="selectCon">
+          <div class="selectDiv">
+            <label class="selectLabel" for="select">Type of Trip &nbsp</label>
+            <select id="select">
+              <option value="" disabled selected>Choose a Type</option>
+              <option value="Alone">individual</option>
+              <option value="Family">Family</option>
+              <option value="Friends">Friends</option>
+            </select>
+          </div>
+          <div class="gender">
+            <input type="radio" id="Male" name="Gender" value="Male">
+            <label id="Male" for="Male">Male</label>
+
+            <input type="radio" id="Female" name="Gender" value="Female">
+            <label id="Female" for="Female">Female</label>
+
+            <input type="radio" id="Kid" name="Gender" value="Kid">
+            <label id="Kid" for="Kid">Kid</label>
+          </div>
+        </div>
+
+
+
+
+
+
+
+        <div class="calendarCon">
+        <div class="Calendar">
+          <div class="CalendarHeader">
+            <div class="monthsCon">
+              <span class="months">April</span>
+            </div>
+            <div class="yearsCon">
+              <pre><</pre>
+              <span>2024</span>
+              <pre>></pre>
+            </div>
+          </div>
+
+            <div class="calendarBody">
+              <div class="days">
+                <span>Sat</span>
+                <span>Sun</span>
+                <span>Mon</span>
+                <span>Tue</span>
+                <span>Wed</span>
+                <span>Thu</span>
+                <span>Fri</span>
+              </div>
+              <div class="daysNum">
+                <span>1</span>
+                <span>2</span>
+                <span>3</span>
+                <span>4</span>
+                <span>5</span>
+                <span>6</span>
+                <span>7</span>
+              </div>
+              </div>
+              <div class="daysNum">
+                <span>1</span>
+                <span>2</span>
+                <span>3</span>
+                <span>4</span>
+                <span>5</span>
+                <span>6</span>
+                <span>7</span>
+              </div>
+
           </div>
         </div>
       </div>
+      </form>
     </section>
-    <br><br><br><br><br><br><br>
+    <br><br>
+
+
+
+
+
+
+
+
+
+
 
     <!-- Footer -->
     <footer>
@@ -290,84 +399,64 @@
           <span>+966 11 123 4567</span>
         </div>
       </div>
-      <!-- Advising Form -->
-      <div class="test">
-        <div id="left" class="else">
-          <div class="formBorder">
-            <h1>For individual Advising</h1>
-            <div class="form">
-              <form>
-                <input placeholder="FirstName" type="text" required>
-                <input class="left" placeholder="LastName" type="text" required>
-                <input class="btm" placeholder="Email" type="email" required>
-                <input class="btm" id="btm1" placeholder="Phone" type="tel" required>
-                <div class="msgCon">
-                  <input placeholder="Additional Massage" id="msg" type="text">
-                </div>
-                <div class="submitdiv">
-                  <input class="submit" type="submit" value="Submit">
-                </div>
-              </form>
-            </div>
-          </div>
+      <!-- Footer Content -->
+      <div id="right" class="else">
+        <div class="aboutFooter">
+          <a href="##">
+            <h3>About</h3>
+          </a>
+          <a href="##">
+            <p>Our Story</p>
+          </a>
+          <a href="##">
+            <p>Awards</p>
+          </a>
+          <a href="##">
+            <p>Our Team</p>
+          </a>
+          <a href="##">
+            <p>Career</p>
+          </a>
         </div>
-        <!-- Footer Content -->
-        <div id="right" class="else">
-          <div class="aboutFooter">
-            <a href="##">
-              <h3>About</h3>
-            </a>
-            <a href="##">
-              <p>Our Story</p>
-            </a>
-            <a href="##">
-              <p>Awards</p>
-            </a>
-            <a href="##">
-              <p>Our Team</p>
-            </a>
-            <a href="##">
-              <p>Career</p>
-            </a>
-          </div>
-          <div class="aboutFooter">
-            <a href="##">
-              <h3>Company</h3>
-            </a>
-            <a href="##">
-              <p>Our Services</p>
-            </a>
-            <a href="##">
-              <p>Clients</p>
-            </a>
-            <a href="##">
-              <p>Contact</p>
-            </a>
-            <a href="##">
-              <p>Press</p>
-            </a>
-          </div>
-          <div class="aboutFooter">
-            <a href="##">
-              <h3>Resources</h3>
-            </a>
-            <a href="#Main">
-              <p>Home</p>
-            </a>
-            <a href="/HTML/Packages(English).html">
-              <p>Packages</p>
-            </a>
-            <a href="##">
-              <p>Privacy Policy</p>
-            </a>
-            <a href="##">
-              <p>Blog</p>
-            </a>
-          </div>
+        <div class="aboutFooter">
+          <a href="##">
+            <h3>Company</h3>
+          </a>
+          <a href="##">
+            <p>Our Services</p>
+          </a>
+          <a href="##">
+            <p>Clients</p>
+          </a>
+          <a href="##">
+            <p>Contact</p>
+          </a>
+          <a href="##">
+            <p>Press</p>
+          </a>
         </div>
+        <div class="aboutFooter">
+          <a href="##">
+            <h3>Resources</h3>
+          </a>
+          <a href="#Main">
+            <p>Home</p>
+          </a>
+          <a href="/HTML/Packages(English).html">
+            <p>Packages</p>
+          </a>
+          <a href="##">
+            <p>Privacy Policy</p>
+          </a>
+          <a href="##">
+            <p>Blog</p>
+          </a>
+        </div>
+      </div>
       </div>
       <p class="copyright">&copy; All rights reserved to Riyadh Season GuideLine Oraganization</p>
     </footer>
+    <script src="/JavaScript/Form.js"></script>
 </body>
 
 </html>

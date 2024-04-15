@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+
+.form_section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form_section form{
+    background-color: #232323;
+    padding: 20px;
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    gap: 50px;
+    font-size: 1.1rem;
+
+}
+.imgDiv{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inputsCon{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+    padding-left: 5%;
+}
+
+.inputsDiv{
+    position: relative;
+}
+.inputsDiv label{
+    position: absolute;
+    left: 1%;
+    top: -10%;
+    pointer-events: none;
+    color: white;
+    transition: .2s;
+}
+.textlabel{
+    position: absolute;
+    top: -10%;
+}
+.inputsDiv input{
+    padding: 2px;
+    width: 80%;
+    background: transparent;
+    border: none;
+    border-bottom: 3px solid rgb(169, 169, 169);
+    color: white;
+    font-size: 1.1rem;
+
+}
+.selectLabel{
+    color: white;
+    padding-left: 5%;
+}
+.inputsDiv input:focus{
+    border: none;
+    border-bottom: 3px solid rgb(169, 169, 169);    
+    outline: none;
+    color: white;
+    font-size: 1.1rem;
+
+}
+
+.selectCon{
+    width: 100%;
+    padding: 20px;
+    color: rgb(167, 167, 167);
+    display: flex;
+    justify-content: space-between;
+}
+.gender{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.selectDiv{
+    display: flex;
+    gap: 20px;
+    width: 50%;
+}
+#select{
+    width: 50%;
+    font-size: 1.01rem;
+}
+.calendarCon{
+    display: flex;
+    justify-content: center;
+    border: 2px solid red;
+}
+.Calendar{
+    background-color: white;
+    width: 50%;
+    border-radius: 16px;
+    font-family: "Indie Flower", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+.CalendarHeader{
+    border: 2px solid blue;
+    display: flex;
+    justify-content: space-between;
+}
+.monthsCon{
+    border: 2px solid pink;
+}
+.yearsCon{
+    border: 2px solid brown;
+    width: 50%;
+    display: flex;
+    justify-content: end;
+}
