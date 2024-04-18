@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+#hr2{
+    margin-top: 1%;
+}
+
+.calendarCon {
+    display: flex;
+    justify-content: center;
+}
+.booking{
+    color: white;
+    font-size: 1.8rem;
+    padding-left: 4%;
+}
+.Calendar {
+    background-color: #495057   ;
+    width: 70%;
+    border-radius: 40px;
+    font-family: 'Indie Flower', cursive;
+    font-weight: 400;
+    font-style: normal;
+    height: 60vh;
+    color: white;
+}
+
+.CalendarHeader{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 2rem;
+}
+.CalendarHeader button{
+    background: transparent;
+    border: none;
+    font-size: 2rem;
+}
+.CalendarHeader button:hover{
+    cursor: pointer;
+}
+.yearsCon{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+.monthsCon{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+.calendarBody{
+    font-size: 1.6rem;
+    display: flex;
+    justify-content: center;
+    padding: 6%;
+    background-color: #6C757D;
+}
+.days{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.days-letter{
+    display: flex;
+    justify-content: center;
+    gap: 8.2%;
+    border-bottom: 2px solid white;
+    padding-bottom: 15px;
+}
+.NumberCon{
+    display: grid;
+    grid-template-columns: repeat(7, 2fr);
+    gap: 20px;
+}
+.numDiv{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.numDiv span:hover{
+    cursor: pointer;
+}
+.numDiv span:hover ~ .numDiv{
+    border: 2px solid white;
+}
+.numDiv button{
+    font-family: 'Indie Flower', cursive;
+    font-weight: 400;
+    font-style: normal;
+    background: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: white;
+}

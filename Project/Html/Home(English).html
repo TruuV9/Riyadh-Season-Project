@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="/CSS/About.css" />
   <link rel="stylesheet" href="/CSS/Cards.css" />
   <link rel="stylesheet" href="/CSS/Form.css">
+  <link rel="stylesheet" href="/CSS/Calendar.css">
   <link rel="stylesheet" href="/CSS/Footer.css">
   <link rel="stylesheet" href="/CSS/Responsive.css">
   <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet" />
@@ -254,7 +255,9 @@
     </section>
 
 
-
+    <section id="hr1" class="hr_con">
+      <div id="hr2" class="hr"></div>
+    </section>
 
 
 
@@ -265,7 +268,7 @@
     <!-- Fourth Section Picture -->
 
     <section class="form_section">
-      <form action="SQL-SUBMIT">
+      <form action="">
         <div class="imgDiv">
           <img src="/IMAGES/Logo4.png" alt="" width="150">
         </div>
@@ -309,69 +312,162 @@
             </select>
           </div>
           <div class="gender">
+            <label>Gender: &nbsp</label>
             <input type="radio" id="Male" name="Gender" value="Male">
-            <label id="Male" for="Male">Male</label>
-
+            <label id="Male" for="Male">Male &nbsp</label>
             <input type="radio" id="Female" name="Gender" value="Female">
             <label id="Female" for="Female">Female</label>
-
-            <input type="radio" id="Kid" name="Gender" value="Kid">
-            <label id="Kid" for="Kid">Kid</label>
           </div>
         </div>
 
-
-
-
-
-
+        <section id="hr2" class="hr_con">
+          <div id="hr3" class="hr"></div>
+        </section>
+        <div class="booking">
+          <h1>Book an Appointment</h1>
+        </div>
 
         <div class="calendarCon">
-        <div class="Calendar">
-          <div class="CalendarHeader">
-            <div class="monthsCon">
-              <span class="months">April</span>
+          <div class="Calendar">
+            <div class="CalendarHeader">
+              <div class="monthsCon">
+                <button id="decreaseMonths">
+                  <pre><</pre>
+                </button>
+                <span id="Month"></span>
+                <button id="increaseMonths">
+                  <pre>></pre>
+                </button>
+              </div>
+              <div class="yearsCon">
+                <button id="decrease">
+                  <pre><</pre>
+                </button>
+                <span id="year">2024</span>
+                <button id="increase">
+                  <pre>></pre>
+                </button>
+              </div>
             </div>
-            <div class="yearsCon">
-              <pre><</pre>
-              <span>2024</span>
-              <pre>></pre>
-            </div>
-          </div>
 
             <div class="calendarBody">
               <div class="days">
-                <span>Sat</span>
-                <span>Sun</span>
-                <span>Mon</span>
-                <span>Tue</span>
-                <span>Wed</span>
-                <span>Thu</span>
-                <span>Fri</span>
+                <div class="days-letter">
+                  <span>Sat</span>
+                  <span>Sun</span>
+                  <span>Mon</span>
+                  <span>tue</span>
+                  <span>Wed</span>
+                  <span>Thu</span>
+                  <span>Fri</span>
+                </div>
+
+
+                <div class="NumberCon">
+                  <div class="numDiv">
+                      <button><span>1</span></button>
+                  </div>
+                  <div class="numDiv">
+                      <button><span>2</span></button>
+                  </div>
+                  <div class="numDiv">
+                      <button><span>3</span></button>
+                  </div>
+                  <div class="numDiv">
+                      <button><span>4</span></button>
+                  </div>
+                  <div class="numDiv">
+                      <button><span>5</span></button>
+                  </div>
+                  <div class="numDiv">
+                      <button><span>6</span></button>
+                  </div>
+                  <div class="numDiv">
+                      <button><span>7</span></button>
+                  </div>
+                  <div class="numDiv">
+                      <button><span>8</span></button>
+                  </div>
+                  <div class="numDiv">
+                      <button><span>9</span></button>
+                  </div>
+                  <div class="numDiv">
+                      <button><span>10</span></button>
+                  </div>
+                  <div class="numDiv">
+                      <button><span>11</span></button>
+                  </div>
+                  <div class="numDiv">
+                      <button><span>12</span></button>
+                  </div>
+                  <div class="numDiv">
+                      <button><span>13</span></button>
+                  </div>
+                  <div class="numDiv">
+                      <button><span>14</span></button>
+                  </div>
+                  <div class="numDiv">
+                      <button><span>15</span></button>
+                  </div>
+                  <div class="numDiv">
+                      <button><span>16</span></button>
+                  </div>
+                  <div class="numDiv">
+                      <button><span>17</span></button>
+                  </div>
+                  <div class="numDiv">
+                      <button><span>18</span></button>
+                  </div>
+                  <div class="numDiv">
+                      <button><span>19</span></button>
+                  </div>
+                  <div class="numDiv">
+                      <button><span>20</span></button>
+                  </div>
+                  <div class="numDiv">
+                      <button><span>21</span></button>
+                  </div>
+                  <div class="numDiv">
+                      <button><span>22</span></button>
+                  </div>
+                  <div class="numDiv">
+                      <button><span>23</span></button>
+                  </div>
+                  <div class="numDiv">
+                      <button><span>24</span></button>
+                  </div>
+                  <div class="numDiv">
+                      <button><span>25</span></button>
+                  </div>
+                  <div class="numDiv">
+                      <button><span>26</span></button>
+                  </div>
+                  <div class="numDiv">
+                      <button><span>27</span></button>
+                  </div>
+                  <div class="numDiv">
+                      <button><span>28</span></button>
+                  </div>
+                  <div class="numDiv">
+                      <button><span>29</span></button>
+                  </div>
+                  <div class="numDiv">
+                      <button><span>30</span></button>
+                  </div>
+                  <div class="numDiv">
+                      <button><span>31</span></button>
+                  </div>
               </div>
-              <div class="daysNum">
-                <span>1</span>
-                <span>2</span>
-                <span>3</span>
-                <span>4</span>
-                <span>5</span>
-                <span>6</span>
-                <span>7</span>
+              
               </div>
+              
               </div>
-              <div class="daysNum">
-                <span>1</span>
-                <span>2</span>
-                <span>3</span>
-                <span>4</span>
-                <span>5</span>
-                <span>6</span>
-                <span>7</span>
-              </div>
+            </div>
+
 
           </div>
         </div>
-      </div>
+        </div>
       </form>
     </section>
     <br><br>
@@ -456,7 +552,9 @@
       </div>
       <p class="copyright">&copy; All rights reserved to Riyadh Season GuideLine Oraganization</p>
     </footer>
+    <!-- JavaScript Links -->
     <script src="/JavaScript/Form.js"></script>
+    <script src="/JavaScript/Calendar.js"></script>
 </body>
 
 </html>

@@ -1,11 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
-
 
 .form_section{
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 5%;
 }
 .form_section form{
     background-color: #232323;
@@ -90,30 +89,8 @@
     width: 50%;
     font-size: 1.01rem;
 }
-.calendarCon{
-    display: flex;
-    justify-content: center;
-    border: 2px solid red;
-}
-.Calendar{
-    background-color: white;
-    width: 50%;
-    border-radius: 16px;
-    font-family: "Indie Flower", cursive;
-    font-weight: 400;
-    font-style: normal;
-}
-.CalendarHeader{
-    border: 2px solid blue;
-    display: flex;
-    justify-content: space-between;
-}
-.monthsCon{
-    border: 2px solid pink;
-}
-.yearsCon{
-    border: 2px solid brown;
-    width: 50%;
-    display: flex;
-    justify-content: end;
+.gender label{
+    font-size: 1.01rem;
+    color: white;
+
 }
